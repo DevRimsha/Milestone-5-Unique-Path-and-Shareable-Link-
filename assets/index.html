@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Builder</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Interactive Resume Builder</h1>
+    </header>
+    <section id="update-resume">
+        <h2>Update Resume</h2>
+        <form id="resume-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills" required>
+
+            <button type="submit">Update Resume</button>
+        </form>
+    </section>
+    <section id="resume-display">
+        <h2>Resume</h2>
+        <p id="display-name">Name: </p>
+        <p id="display-skills">Skills: </p>
+        <button id="edit-btn">Edit</button>
+    </section>
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>
+            I am a passionate and dedicated Frontend Developer with a strong foundation in web development technologies
+            such as HTML, CSS, JavaScript, and TypeScript. I am always eager to learn and improve my skills to create
+            visually appealing and user-friendly web applications. With a problem-solving mindset and attention to
+            detail, I strive to build websites that deliver seamless user experiences.
+            <br><br>
+            I have worked on several projects, including interactive web applications, landing pages, and e-commerce
+            platforms. I am committed to continuous growth and collaborating in dynamic teams to create innovative
+            solutions.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>TypeScript and React.js</li>
+            <li>Bootstrap and Tailwind CSS</li>
+            <li>Node.js</li>
+            <li>Version Control: Git and GitHub</li>
+            <li>Problem-Solving and Debugging</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div>
+            <h3>Frontend Developer - TechSolve Solutions, Karachi</h3>
+            <p><strong>Feb 2022 - Present</strong></p>
+            <p>Built user-friendly, responsive web applications for clients in diverse industries. Collaborated with
+                backend developers to integrate REST APIs.</p>
+        </div>
+        <div>
+            <h3>Web Development Intern - SoftLogics, Islamabad</h3>
+            <p><strong>Jul 2021 - Jan 2022</strong></p>
+            <p>Developed dynamic landing pages and optimized website speed by 25%. Participated in client meetings to
+                gather requirements.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            <h3>Bachelor of Computer Science</h3>
+            <p>University of Karachi, 2018 - 2022</p>
+        </div>
+        <div>
+            <h3>Intermediate in Pre-Engineering</h3>
+            <p>Abdullah Government College for Women, Karachi, 2016 - 2018</p>
+        </div>
+        <div>
+            <h3>Matriculation in Science</h3>
+            <p>The City School, Lahore, 2014 - 2016</p>
+        </div>
+    </section>
+    <footer>
+        <p>Made with ❤️ in Pakistan</p>
+    </footer>
+
+</body>
+
+</html>
